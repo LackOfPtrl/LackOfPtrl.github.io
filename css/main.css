@@ -6,15 +6,18 @@ body, html {
 
   .button {
     background-color: #00001a;
-    border: none;
+    border: 2px #00001a;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 15 px;
+    border-radius: 2px;
   }
-
+  .button:hover {
+    background-color: rgba(0,0,0, 0.8);
+  }
   
   * {
     box-sizing: border-box;
