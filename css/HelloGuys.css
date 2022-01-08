@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  
+  .bg {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-image: url('image/beforepic.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .container{
+    position: relative;
+    background-color: ghostwhite;
+    box-shadow: 0px 10px 15px 10px  grey;
+    border-radius: 20px;
+    margin-top: 190px;
+    padding: 20px;
+    z-index: 10;
+  }
+
+  @media only screen and (max-device-width: 660px) {
+    .bg { 
+        background-image: url('image/beforepicmobile.jpg'); 
+   }
+    .container {
+      margin-top: 369px;
+    }
+}
+
+  .whatHappensButton{
+    position: relative;
+  }
