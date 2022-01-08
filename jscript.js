@@ -1,4 +1,4 @@
-const button1 = document.getElementById('button1');
+const button = document.getElementById('button1');
 
 let generateNum = Math.floor((Math.random() * 4));
 let randomPhrase = ['You are Beautiful AF', 'Me and you need to link', 'Send Nudes'];
@@ -16,4 +16,4 @@ function randoMsg(){
 
 randoMsg();
 
-button1.addEventListener('click', alert(selectedPhrase));
+button.addEventListener('', alert(selectedPhrase));
