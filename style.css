@@ -1,13 +1,15 @@
 html, body {
+    height: 100%;
     margin: 0;
 }
 
 .container {
-    height: 100vmax;
-    background-image: url('background.jpg') ;
+    height: 100%;
+    background-image: url('Background.png') ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .button {
