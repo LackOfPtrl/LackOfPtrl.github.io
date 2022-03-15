@@ -4,6 +4,8 @@ html, body {
 }
 
 
+
+
 .container {
     height: 100%;
     background-image: url('Backgroundcompress.jpg') ;
@@ -12,7 +14,12 @@ html, body {
     background-size: cover;
     font-family: Georgia, 'Times New Roman', Times, serif;
     animation: gradient 5s ease infinite;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    backface-visibility:     hidden;
 }
+
+
 
 @keyframes gradient {
     0% {
