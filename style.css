@@ -1,7 +1,16 @@
 html, body {
     height: 100%;
     margin: 0;
+    
 }
+
+/*.animation {
+    margin: 20px;
+    background-color: #ffffff ;
+    animation: gradient 5s ease infinite;
+}
+*/
+
 
 .container {
     height: 100%;
@@ -10,7 +19,21 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: gradient 5s ease infinite;
 }
+
+@keyframes gradient {
+    0% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.8;
+    }
+}
+
 
 .header {
     padding: 50px;
