@@ -67,3 +67,44 @@ html, body {
     text-decoration: none;
     color: black;
 }
+
+.glitch {
+    font-size: 5rem;
+    text-shadow:
+        0.05em 0 0 rgba(255,0,0,.75),
+        -0.025em -.05em 0 rgba(0,255,0,.75),
+        0.025em 0.05em 0 rgba(0,0,255,.75);
+
+    animation: glitch 60ms ;
+    animation-delay: 5s;    
+}
+
+@keyframes glitch {
+    0% {
+        text-shadow:
+        0.05em 0 0 rgba(255,0,0,.75),
+        -0.025em -.05em 0 rgba(0,255,0,.75),
+        0.025em 0.05em 0 rgba(0,0,255,.75);
+    }
+
+    23% {
+        text-shadow:
+        0.025em 0.5em 0 rgba(255,0,0,.75),
+        0.25em -.025em 0 rgba(0,255,0,.75),
+        -0.025em -0.05em 0 rgba(0,0,255,.75);
+    }
+
+    72% {
+        text-shadow:
+        -0.05em 0 0 rgba(255,0,0,.75),
+        0.05em 0.25em 0 rgba(0,255,0,.75),
+        0.025em 0.05em 0 rgba(0,0,255,.75);
+    }
+
+    100% {
+        text-shadow:
+        0.35em -.025em 0 rgba(255,0,0,.75),
+        0.045em -.05em 0 rgba(0,255,0,.75),
+        0.5em 0.05em 0 rgba(0,0,255,.75);
+    }
+}
